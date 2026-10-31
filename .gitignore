@@ -1,0 +1,29 @@
+# Python
+**/.venv/
+**/__pycache__/
+*.pyc
+
+# React / Node
+**/node_modules/
+frontend/dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# ML datasets and model files
+data/raw/
+*.zip
+*.pkl
+*.joblib
+*.pt
+*.h5
+
+# Local databases
+*.sqlite3
+*.duckdb
+
+# System files
+.DS_Store
+Thumbs.db
