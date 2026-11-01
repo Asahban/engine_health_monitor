@@ -27,3 +27,13 @@ data/raw/
 # System files
 .DS_Store
 Thumbs.db
+
+# AeroMind local development backups
+frontend/aeromind_dashboard_approved_backup/
+frontend/src/*.backup.css
+frontend/src/*.backup.tsx
+frontend/src/*.backup.tsx.disabled
+
+# Local credentials and private keys
+*.pem
+*.key
